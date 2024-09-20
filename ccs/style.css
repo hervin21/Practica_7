@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #bdd1f6;
+    background-color: #bdd1f6c5;
 }
 
 .areaPrincipal{
@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    opacity: 0.7;
+    
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -30,7 +30,7 @@ body{
 
 .piePagina{
     width: 100%;
-    height: 100px;
+    height: 50px;
     background: #021c3a;
     color: white;
     bottom: 0;
@@ -70,7 +70,7 @@ li a:hover{
 
 #datos{
     width: 80%;
-    background-color: #ffede8;
+    background-color:#bdd1f6b7;
     height: 600px;
     margin: auto;
     opacity: 1;
@@ -79,13 +79,13 @@ li a:hover{
     font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tabla{
+.tabla1{
     padding: 40px 70px ;
-    background-color: #ffede8;
+    background-color: #fffefe;
     display: flex; 
 }
 
-.tabla img{
+.tabla1 img{
     border-radius: 15px;
     margin-bottom: 15px;
     margin-left: 20px;
@@ -93,14 +93,8 @@ li a:hover{
 
 .tabla1{
     padding: 40px 70px ;
-    background-color: #ffede8;
+    background-color:#ffffff;
     display: flex; 
     margin-left: 10px;
 }
 
-.tabla1 img{
-    border-radius: 15px;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    margin-right: 40px;
-}
