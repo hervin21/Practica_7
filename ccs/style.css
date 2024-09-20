@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bdd1f6;
+}
+
+.areaPrincipal{
+    background-image: url("../imagenes/banner2.jpg!w700wp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#encabezado{
+    background: #21222e;
+    height: 240px;
+    text-align: center;
+    background-image: url("../imagenes/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100%;
+    height: 100px;
+    background: #021c3a;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #021c3a;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+#datos{
+    width: 80%;
+    background-color: #ffede8;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #000;
+    padding: 10px;
+    font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tabla{
+    padding: 40px 70px ;
+    background-color: #ffede8;
+    display: flex; 
+}
+
+.tabla img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.tabla1{
+    padding: 40px 70px ;
+    background-color: #ffede8;
+    display: flex; 
+    margin-left: 10px;
+}
+
+.tabla1 img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
